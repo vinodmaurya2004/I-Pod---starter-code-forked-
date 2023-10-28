@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main {
+  width: 200px;
+  height: 390px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: dimgray;
+  border-radius: 15px;
+}
+
+.screen {
+  position: absolute;
+  margin-top: 15px;
+  width: 185px;
+  height: 175px;
+  margin-left: 5px;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.touchPad {
+  position: absolute;
+  width: 185px;
+  height: 183px;
+  margin: auto;
+  margin-top: 170px;
+}
+
+.outerCircular {
+  position: absolute;
+  margin-top: 45px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  margin-left: 25px;
+  border-radius: 150px;
+}
+
+.innerCircular {
+  position: absolute;
+  margin-top: -92px;
+  width: 55px;
+  height: 55px;
+  margin-left: 45.5px;
+  margin-right: 35px;
+  border-radius: 55px;
+  background-color: dimgray;
+}
+
+#forward-icon {
+  width: 35px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+#backward-icon {
+  width: 35px;
+  margin-left: 55px;
+}
+
+#start {
+  width: 35px;
+  margin-left: 40px;
+}
+
+#pause {
+  width: 35px;
+  margin-left: -6px;
+}
+
+#upward-scroll {
+  width: 25px;
+  margin-left: 45px;
+}
